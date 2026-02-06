@@ -7,15 +7,13 @@
 </head>
 <body>
     <h2>Benvenuto nel programma Biglietteria Stadio</h2>
-    <input type="number" id="età" placeholder="Inserisci la tua età">
+    <input type="number" id="eta" placeholder="Inserisci la tua età">
     <br><br>
-    <select id="settore">
-            <option value="curva">Curva (20€)</option>
-            <option value="tribuna">Tribuna (50€)</option>
-        </select>
-    <br><br>
+        <input type="text" id="settore" placeholder="Settore (Curva o Tribuna)"><br>
+    <br>
     <button type="button" onclick="CalcolaFN()">Calcola</button> 
-    
+    <p><h3 id="risultato"></h3></p>
+
     <script src="script.js"></script>
 </body>
 </html>
